@@ -1,6 +1,6 @@
 import { footerProps } from "@lib/types";
 
-export default function Footer() {
+export default function Footer({year, fullName, studentId}: footerProps) {
   return (
     <div className="mt-3">
       <hr />
