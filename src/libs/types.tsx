@@ -20,6 +20,12 @@ export interface movieIdPageParams {
   };
 }
 
+export interface searchInputParams {
+  params: {
+    searchInput: string;
+  };
+}
+
 export interface footerProps {
   year: string;
   fullName: string;

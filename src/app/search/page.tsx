@@ -13,7 +13,7 @@ export default function SearchPage() {
     setSearchInput(event.target.value);
   };
 
-  const searchInputOnKeyUp = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const searchInputOnKeyUp = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") searchBtnOnClick();
   };
 

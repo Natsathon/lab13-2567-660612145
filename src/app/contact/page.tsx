@@ -1,4 +1,5 @@
-import { IconBrandFacebook, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandFacebookFilled, IconBrandTwitter, IconBrandTwitterFilled } from "@tabler/icons-react";
+
 
 export default function ContactPage() {
   return (
