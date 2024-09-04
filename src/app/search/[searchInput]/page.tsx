@@ -8,7 +8,7 @@ export default function SearchResultPage({ params }: searchInputParams) {
   //tip1 : before filtering movie, replace all "%20" with " " (space) in the input
   const processedSearchInput = params.searchInput.replaceAll("%20", " ");
 
-  
+
  /// tip2 : Use "includes" string method to check substring
 
   //tip3 : To implement case insensitive searching, use "toLocaleLowerCase" string method
